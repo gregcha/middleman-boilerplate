@@ -2,7 +2,21 @@
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  src: url("../fonts/ProximaNovaRegIt.eot");
+  src: url("../fonts/ProximaNovaRegIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaRegIt.woff") format("woff"), url("../fonts/ProximaNovaReg.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+  src: url("../fonts/ProximaNovaLightIt.eot");
+  src: url("../fonts/ProximaNovaLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaLightIt.woff") format("woff"), url("../fonts/ProximaNovaLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  src: url("../fonts/ProximaNovaBoldIt.eot");
+  src: url("../fonts/ProximaNovaBoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBoldIt.woff") format("woff"), url("../fonts/ProximaNovaBold.ttf") format("truetype"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -1405,7 +1419,7 @@ html {
 
 /* line 27, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Proxima Nova";
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
@@ -1504,7 +1518,7 @@ hr {
 /* line 9, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Proxima Nova";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -3763,23 +3777,23 @@ select[multiple].input-lg,
 /* line 75, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: #fff;
-  background-color: #E67E22;
-  border-color: #d67118; }
+  background-color: #E74700;
+  border-color: #ce3f00; }
   /* line 11, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
     color: #fff;
-    background-color: #bf6516;
-    border-color: #9f5412; }
+    background-color: #b43700;
+    border-color: #902c00; }
   /* line 21, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
-    background-color: #E67E22;
-    border-color: #d67118; }
+    background-color: #E74700;
+    border-color: #ce3f00; }
   /* line 40, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-warning .badge {
-    color: #E67E22;
+    color: #E74700;
     background-color: #fff; }
 
 /* line 79, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5246,10 +5260,10 @@ a.label:hover, a.label:focus {
 
 /* line 60, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
-  background-color: #E67E22; }
+  background-color: #E74700; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-warning[href]:hover, .label-warning[href]:focus {
-    background-color: #bf6516; }
+    background-color: #b43700; }
 
 /* line 64, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
@@ -5523,7 +5537,7 @@ a.thumbnail.active {
 
 /* line 81, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-warning {
-  background-color: #E67E22; }
+  background-color: #E74700; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-warning {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6344,7 +6358,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Proxima Nova";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.4;
@@ -6455,7 +6469,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Proxima Nova";
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4;
@@ -9243,6 +9257,33 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 2, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+#footer {
+  background-color: #2E2D2E;
+  font-size: 30px;
+  padding: 20px; }
+  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+  #footer a {
+    color: white;
+    padding: 5px; }
+    /* line 9, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+    #footer a:hover {
+      color: #E74700; }
+  /* line 13, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+  #footer p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 0 0 0; }
+
+/* line 21, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+#beer {
+  color: #E74700; }
+
+/* line 25, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+.clear {
+  clear: both; }
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
@@ -9261,9 +9302,9 @@ button.close {
 /* line 38, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: white;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Proxima Nova";
   border: none;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 20px;
   padding-right: 20px;
   border-bottom: 0 solid grey;
@@ -9385,7 +9426,7 @@ button.close {
 
 /* line 23, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
-  background: #E67E22;
+  background: #E74700;
   color: white; }
 
 /* line 27, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
@@ -9397,6 +9438,87 @@ button.close {
 .bg-purple {
   background: #6452BD;
   color: white; }
+
+/* line 1, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+.card-buddy {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center; }
+  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  .card-buddy img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px; }
+
+/* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+.card-header {
+  background-color: #E74700;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0; }
+  /* line 20, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  .card-header p {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin: 0; }
+
+/* line 1, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+.banner {
+  background-image: url("../images/bg-pattern.jpg");
+  padding: 100px;
+  color: white;
+  text-align: center; }
+  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  .banner h1 {
+    font-weight: 900;
+    font-size: 60px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
+  /* line 11, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  .banner p {
+    font-weight: 100;
+    font-size: 30px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
+  /* line 16, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  .banner .btn {
+    margin: 20px 0 0 0;
+    width: 200px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
+
+/* line 23, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#features-list {
+  background-color: #ecf0f1;
+  padding: 80px;
+  text-align: center; }
+
+/* line 29, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#features {
+  padding: 10px; }
+
+/* line 33, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#form {
+  background-color: #7f8c8d;
+  padding: 30px 0 50px 0;
+  color: white;
+  text-align: center; }
+  /* line 38, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  #form h2 {
+    font-weight: 200;
+    padding: 3px; }
+  /* line 42, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  #form p {
+    font-weight: 100; }
+  /* line 45, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  #form input {
+    margin: 20px 0 5px 0; }
+
+/* line 50, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+#subscribe {
+  background-color: #E74700;
+  border-color: white;
+  width: 250px; }
 
 /*
 ==============================================
