@@ -1,7 +1,15 @@
+.title h1 {
+  text-align: center;
+  padding: 30px;
+  color: $orange;
+
+}
+
+
 .card-buddy {
   background-color: white;
-  padding: 20px;
   margin: 20px;
+  padding-bottom: 20px;
   text-align: center;
   img {
     width: 100px;
@@ -13,10 +21,6 @@
 
 .card-header {
   background-color: $orange;
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0;
   p {
     font-weight: 500;
     color: white;

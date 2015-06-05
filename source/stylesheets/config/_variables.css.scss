@@ -10,10 +10,11 @@
  @font-face {
   font-family: "Proxima Nova";
   font-weight: 300;
-  src: font-url('Proxima Nova Reg It.eot');
-  src: font-url('Proxima Nova Reg It.eot?#iefix') format('embedded-opentype'),
-       font-url('Proxima Nova Reg It.woff') format('woff'),
+  src: font-url('Proxima Nova Reg.eot');
+  src: font-url('Proxima Nova Reg.eot?#iefix') format('embedded-opentype'),
+       font-url('Proxima Nova Reg.woff') format('woff'),
        font-url('Proxima Nova Reg.ttf') format('truetype')
+       font-url('Proxima Nova Reg.svg') format('svg')
      }
 
 @font-face {
@@ -23,15 +24,17 @@
   src: font-url('Proxima Nova Light It.eot?#iefix') format('embedded-opentype'),
        font-url('Proxima Nova Light It.woff') format('woff'),
        font-url('Proxima Nova Light.ttf') format('truetype')
+       font-url('Proxima Nova Light.svg') format('svg')
      }
 
 @font-face {
 font-family: "Proxima Nova";
 font-weight: 500;
-src: font-url('Proxima Nova Bold It.eot');
-src: font-url('Proxima Nova Bold It.eot?#iefix') format('embedded-opentype'),
-     font-url('Proxima Nova Bold It.woff') format('woff'),
+src: font-url('Proxima Nova Bold.eot');
+src: font-url('Proxima Nova Bold.eot?#iefix') format('embedded-opentype'),
+     font-url('Proxima Nova Bold.woff') format('woff'),
      font-url('Proxima Nova Bold.ttf') format('truetype')
+     font-url('Proxima Nova Bold.svg') format('svg')
    }
 
 $my-font: "Proxima Nova";
