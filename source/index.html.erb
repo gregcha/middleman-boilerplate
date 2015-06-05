@@ -1,10 +1,82 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Orange Hunt
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="banner">
+  <h1>Orange Hunt</h1>
+  <p>Hey, I'm happy to present you to most beautiful website ever designed</p>
+  <% link_to 'Browse', '#', class: 'btn btn-default btn-lg'%>
+</div>
+
+<div id="features-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div id="features">
+          <%= image_tag 'lab.png', alt:'Amazing'%>
+          <h2>Amazing</h2>
+          <p>What else?! All is said</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div id="features">
+          <%= image_tag 'sushi.png', alt:'Unique'%>
+          <h2>Unique</h2>
+          <p>You'll never find it anywhere else</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div id="features">
+          <%= image_tag src='battery.png', alt:'Free'%>
+          <h2>Free</h2>
+          <p>Full access. For ever</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div id="features">
+          <%= image_tag 'heart.png', alt:'Love'%>
+          <h2>Love</h2>
+          <p>This has been made with my heart</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="form">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+        <h2>Get news from Orange Hunt</h2>
+        <p>I can't promise we won't spam you 10 times a day</p>
+        <form action="/">
+          <input type="email" class="form-control" placeholder= "bob@gmail.com">
+          <input type="submit" value="Subscribe" id="subscribe" class="btn btn-warning btn-lg">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.870280, 2.333611);
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+  };
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: "You are here!"
+  });
+</script>
+
+

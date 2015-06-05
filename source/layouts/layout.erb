@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            <%= image_tag 'logo.png', alt:'hellooooo' %>
           <% end %>
         </div>
 
@@ -57,5 +57,26 @@
     </nav>
 
     <%= yield %>
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="list-inline pull-left">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="pull-right">
+              <p>Made with <i id ="beer" class="fa fa-beer"></i> by Grégoire</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
   </body>
 </html>
