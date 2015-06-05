@@ -5,18 +5,18 @@
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 300;
-  src: url("../fonts/ProximaNovaRegIt.eot");
-  src: url("../fonts/ProximaNovaRegIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaRegIt.woff") format("woff"), url("../fonts/ProximaNovaReg.ttf") format("truetype"); }
+  src: url("../fonts/ProximaNovaReg.eot");
+  src: url("../fonts/ProximaNovaReg.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaReg.woff") format("woff"), url("../fonts/ProximaNovaReg.ttf") format("truetype") url("../fonts/ProximaNovaReg.svg") format("svg"); }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 100;
   src: url("../fonts/ProximaNovaLightIt.eot");
-  src: url("../fonts/ProximaNovaLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaLightIt.woff") format("woff"), url("../fonts/ProximaNovaLight.ttf") format("truetype"); }
+  src: url("../fonts/ProximaNovaLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaLightIt.woff") format("woff"), url("../fonts/ProximaNovaLight.ttf") format("truetype") url("../fonts/ProximaNovaLight.svg") format("svg"); }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 500;
-  src: url("../fonts/ProximaNovaBoldIt.eot");
-  src: url("../fonts/ProximaNovaBoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBoldIt.woff") format("woff"), url("../fonts/ProximaNovaBold.ttf") format("truetype"); }
+  src: url("../fonts/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold.ttf") format("truetype") url("../fonts/ProximaNovaBold.svg") format("svg"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -9406,59 +9406,60 @@ button.close {
  * ------------------------------------- */
 /* line 7, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em; }
+  padding-top: 3.5em; }
 
-/* line 11, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 10, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 15, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 19, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 18, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 22, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E74700;
   color: white; }
 
-/* line 27, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 26, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
 
 /* line 1, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+.title h1 {
+  text-align: center;
+  padding: 30px;
+  color: #E74700; }
+
+/* line 9, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
 .card-buddy {
   background-color: white;
-  padding: 20px;
   margin: 20px;
+  padding-bottom: 20px;
   text-align: center; }
-  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  /* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
   .card-buddy img {
     width: 100px;
     border-radius: 50%;
     margin: 15px; }
 
-/* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+/* line 22, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
 .card-header {
-  background-color: #E74700;
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0; }
-  /* line 20, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  background-color: #E74700; }
+  /* line 24, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
   .card-header p {
     font-weight: 500;
     color: white;
