@@ -1,0 +1,25 @@
+---
+title: Buddies
+---
+
+<div>
+  <h1>Say hi to our fellow buddies!</h1>
+  <div class="container">
+    <div class="row">
+      <% data.team.each do |buddy| %>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card-buddy">
+            <div class="card-header">
+              <p><%= buddy.firstname%></p>
+              <p><%=buddy.lastname %></p>
+            </div>
+            <%= image_tag buddy.image%>
+            <p><%= buddy.pseudo %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
