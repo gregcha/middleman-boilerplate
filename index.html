@@ -44,8 +44,18 @@
                 <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
                 <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <!-- <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a> -->
+            <li><button data-toggle="modal" data-target="#sign-in-modal" class="btn">Sign-in</button></li>
+            <div class="modal fade" id="sign-in-modal">
+              <div class="pop-up">
+                <p>Welcome back on Orange Hunt!</p>
+                <form action="/">
+                  <input type="email" class="form-control" placeholder="bob@gmail.com">
+                  <input type="password" class="form-control" placeholder="*********">
+                  <input type="submit" value="Sign-In" class="btn">
+                </form>
+              </div>
+            </div>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -55,7 +65,7 @@
 
     <div class="banner">
   <h1>Orange Hunt</h1>
-  <p>Hey, I'm happy to present you to most beautiful website ever designed</p>
+  <p>I'm happy to present you to most beautiful website ever designed</p>
 </div>
 
 <div id="features-list">

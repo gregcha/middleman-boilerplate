@@ -9399,6 +9399,25 @@ button.close {
     color: black;
     padding-top: 0;
     padding-bottom: 0; } }
+/* line 153, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+.pop-up {
+  border-radius: 3px;
+  border: 1px solid #2E2D2E;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  margin: 150px auto; }
+  /* line 160, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  .pop-up p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E74700;
+    text-align: center;
+    margin-bottom: 15px; }
+  /* line 167, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  .pop-up input {
+    margin: 10px 0 0 0; }
+
 /* -------------------------------------
  * Utilities classes
  * These are examples of utilities classes
@@ -9506,7 +9525,7 @@ button.close {
   text-align: center; }
   /* line 38, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
   #form h2 {
-    font-weight: 200;
+    font-weight: 500;
     padding: 3px; }
   /* line 42, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
   #form p {
