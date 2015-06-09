@@ -5,18 +5,18 @@
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 300;
-  src: url("../fonts/ProximaNovaReg.eot");
-  src: url("../fonts/ProximaNovaReg.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaReg.woff") format("woff"), url("../fonts/ProximaNovaReg.ttf") format("truetype") url("../fonts/ProximaNovaReg.svg") format("svg"); }
+  src: url("../fonts/proximanovareg.eot");
+  src: url("../fonts/proximanovareg.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovareg.woff") format("woff"), url("../fonts/proximanovareg.ttf") format("truetype") url("../fonts/proximanovareg.svg") format("svg"); }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 100;
-  src: url("../fonts/ProximaNovaLightIt.eot");
-  src: url("../fonts/ProximaNovaLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaLightIt.woff") format("woff"), url("../fonts/ProximaNovaLight.ttf") format("truetype") url("../fonts/ProximaNovaLight.svg") format("svg"); }
+  src: url("../fonts/proximanovalight.eot");
+  src: url("../fonts/proximanovalight.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovalight.woff") format("woff"), url("../fonts/proximanovalight.ttf") format("truetype") url("../fonts/proximanovalight.svg") format("svg"); }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 500;
-  src: url("../fonts/ProximaNovaBold.eot");
-  src: url("../fonts/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold.ttf") format("truetype") url("../fonts/ProximaNovaBold.svg") format("svg"); }
+  src: url("../fonts/proximanovabold.eot");
+  src: url("../fonts/proximanovabold.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovabold.woff") format("woff"), url("../fonts/proximanovabold.ttf") format("truetype") url("../fonts/proximanovabold.svg") format("svg"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
