@@ -3755,23 +3755,23 @@ select[multiple].input-lg,
 /* line 71, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #FDB631;
-  border-color: #fdad18; }
+  background-color: #E77721;
+  border-color: #d76b17; }
   /* line 11, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #f9a302;
-    border-color: #d58c02; }
+    background-color: #c05f15;
+    border-color: #a04f11; }
   /* line 21, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-    background-color: #FDB631;
-    border-color: #fdad18; }
+    background-color: #E77721;
+    border-color: #d76b17; }
   /* line 40, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info .badge {
-    color: #FDB631;
+    color: #E77721;
     background-color: #fff; }
 
 /* line 75, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3799,23 +3799,23 @@ select[multiple].input-lg,
 /* line 79, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
-  background-color: #EE5F5B;
-  border-color: #ec4844; }
+  background-color: #980026;
+  border-color: #7f0020; }
   /* line 11, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #e9322d;
-    border-color: #dc1c17; }
+    background-color: #650019;
+    border-color: #410010; }
   /* line 21, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-    background-color: #EE5F5B;
-    border-color: #ec4844; }
+    background-color: #980026;
+    border-color: #7f0020; }
   /* line 40, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-danger .badge {
-    color: #EE5F5B;
+    color: #980026;
     background-color: #fff; }
 
 /* line 88, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5253,10 +5253,10 @@ a.label:hover, a.label:focus {
 
 /* line 56, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #FDB631; }
+  background-color: #E77721; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-info[href]:hover, .label-info[href]:focus {
-    background-color: #f9a302; }
+    background-color: #c05f15; }
 
 /* line 60, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
@@ -5267,10 +5267,10 @@ a.label:hover, a.label:focus {
 
 /* line 64, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
-  background-color: #EE5F5B; }
+  background-color: #980026; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-danger[href]:hover, .label-danger[href]:focus {
-    background-color: #e9322d; }
+    background-color: #650019; }
 
 /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
 .badge {
@@ -5528,7 +5528,7 @@ a.thumbnail.active {
 
 /* line 77, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #FDB631; }
+  background-color: #E77721; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-info {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5546,7 +5546,7 @@ a.thumbnail.active {
 
 /* line 85, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-danger {
-  background-color: #EE5F5B; }
+  background-color: #980026; }
   /* line 7, /Users/gregoirecharles/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-danger {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -9257,30 +9257,30 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 2, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+/* line 2, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background-color: #2E2D2E;
   font-size: 30px;
   padding: 20px; }
-  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+  /* line 6, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
   #footer a {
     color: white;
     padding: 5px; }
-    /* line 9, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+    /* line 9, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
     #footer a:hover {
       color: #E74700; }
-  /* line 13, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+  /* line 13, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
   #footer p {
     color: white;
     font-size: 15px;
     font-weight: 100;
     padding: 10px 0 0 0; }
 
-/* line 21, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+/* line 21, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
 #beer {
   color: #E74700; }
 
-/* line 25, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+/* line 25, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_footer.css.scss */
 .clear {
   clear: both; }
 
@@ -9299,7 +9299,7 @@ button.close {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 38, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+/* line 38, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: white;
   font-family: "Proxima Nova";
@@ -9310,7 +9310,7 @@ button.close {
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 49, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9325,19 +9325,19 @@ button.close {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 65, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
-    color: #FDB631;
+    color: #E77721;
     background-color: transparent; }
-  /* line 71, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 71, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: black;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 79, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 79, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9347,30 +9347,30 @@ button.close {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 93, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px;
     padding: 0px; }
-  /* line 98, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 98, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 106, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 112, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 117, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9390,151 +9390,190 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 140, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
+  /* line 143, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: black;
     padding-top: 0;
     padding-bottom: 0; } }
-/* line 153, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
-.pop-up {
-  border-radius: 3px;
-  border: 1px solid #2E2D2E;
-  background-color: white;
-  width: 400px;
-  padding: 30px;
-  margin: 150px auto; }
-  /* line 160, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
-  .pop-up p {
-    font-size: 20px;
-    font-weight: 500;
-    color: #E74700;
-    text-align: center;
-    margin-bottom: 15px; }
-  /* line 167, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
-  .pop-up input {
-    margin: 10px 0 0 0; }
+/* line 154, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+.navbar.transparent {
+  background: transparent; }
+  /* line 156, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+  .navbar.transparent a {
+    color: white !important; }
+
+/* line 162, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+.top-margin {
+  margin-top: 10px; }
+
+/* line 166, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+.modal-content {
+  border-radius: 7px;
+  border: none; }
+
+/* line 171, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+.modal-title {
+  color: #E74700; }
+
+/* line 175, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_navbar.css.scss */
+.modal-body {
+  padding: 10px 70px 20px 70px; }
 
 /* -------------------------------------
  * Utilities classes
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 7, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
-.padded {
-  padding-top: 3.5em; }
+/* line 8, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
+html {
+  height: 100%; }
 
-/* line 10, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 12, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
+body {
+  height: 100%; }
+
+/* line 16, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
-  background: #EE5F5B;
+  background: #980026;
   color: white; }
 
-/* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 20, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 18, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 24, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
-  background: #FDB631;
+  background: #E77721;
   color: white; }
 
-/* line 22, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 28, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E74700;
   color: white; }
 
-/* line 26, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 32, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 30, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/layout/_utilities.css.scss */
+/* line 36, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
 
-/* line 1, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+/* line 1, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
+.buddies {
+  background-image: url("../images/bg-4.jpg");
+  height: 100%;
+  min-height: 100px; }
+
+/* line 8, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
 .title h1 {
+  margin-top: 50px;
   text-align: center;
   padding: 30px;
-  color: #E74700; }
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 0 2px 2px rgba(20, 20, 20, 0.3);
+  color: white; }
 
-/* line 9, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+/* line 19, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
 .card-buddy {
   background-color: white;
-  margin: 20px;
+  margin: 10px;
   padding-bottom: 20px;
-  text-align: center; }
-  /* line 14, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(20, 20, 20, 0.3); }
+  /* line 26, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
   .card-buddy img {
     width: 100px;
     border-radius: 50%;
     margin: 15px; }
 
-/* line 22, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+/* line 34, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
 .card-header {
-  background-color: #E74700; }
-  /* line 24, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_buddies.css.scss */
+  background-color: #980026;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 20px; }
+  /* line 39, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_buddies.css.scss */
   .card-header p {
     font-weight: 500;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    text-shadow: 0 2px 2px rgba(20, 20, 20, 0.3);
     margin: 0; }
 
-/* line 1, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+/* line 1, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
 .banner {
   background-image: url("../images/bg-pattern.jpg");
   padding: 100px;
   color: white;
-  text-align: center; }
-  /* line 6, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  text-align: center;
+  height: 100%;
+  min-height: 100px;
+  display: flex; }
+  /* line 9, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   .banner h1 {
+    margin: 10px;
     font-weight: 900;
     font-size: 60px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
-  /* line 11, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  /* line 15, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   .banner p {
+    margin: 10px;
     font-weight: 100;
     font-size: 30px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
-  /* line 16, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  /* line 21, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   .banner .btn {
-    margin: 20px 0 0 0;
+    margin: 10px;
     width: 200px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
 
-/* line 23, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+/* line 28, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
+.home-title {
+  margin: auto; }
+
+/* line 32, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
 #features-list {
   background-color: #ecf0f1;
   padding: 80px;
   text-align: center; }
 
-/* line 29, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+/* line 38, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
 #features {
   padding: 10px; }
 
-/* line 33, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+/* line 42, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
 #form {
   background-color: #7f8c8d;
   padding: 30px 0 50px 0;
   color: white;
   text-align: center; }
-  /* line 38, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  /* line 47, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   #form h2 {
     font-weight: 500;
     padding: 3px; }
-  /* line 42, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  /* line 51, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   #form p {
     font-weight: 100; }
-  /* line 45, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+  /* line 54, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
   #form input {
     margin: 20px 0 5px 0; }
+  /* line 59, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
+  #form #form-anchor {
+    height: 1px;
+    position: relative;
+    bottom: 90px; }
 
-/* line 50, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/pages/_home.css.scss */
+/* line 66, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/pages/_home.css.scss */
 #subscribe {
   background-color: #E74700;
   border-color: white;
@@ -9558,7 +9597,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9599,7 +9638,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9640,7 +9679,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9681,7 +9720,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9722,7 +9761,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9775,7 +9814,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9808,7 +9847,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9847,7 +9886,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9884,7 +9923,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9943,7 +9982,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9991,7 +10030,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -10034,7 +10073,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -10068,7 +10107,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -10096,7 +10135,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -10124,7 +10163,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -10171,7 +10210,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10218,7 +10257,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10265,7 +10304,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/gregoirecharles/code/gregcha/middleman-boilerplate/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/gregoirecharles/code/gregcha/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;

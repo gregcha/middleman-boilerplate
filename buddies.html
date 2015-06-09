@@ -15,25 +15,17 @@
   </head>
 
   <body class="buddies">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon transparent" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-<a class="navbar-brand" href="./">            <img alt="Orange Hunt" src="images/logo-orange.png" />
-</a>        </div>
-
+<a class="navbar-brand hidden" href="./">          <img alt="Orange Hunt" src="images/logo-orange.png" />
+</a>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-<a href="/pricing.html">                <i class="fa fa-dollar"></i> Pricing
+<a href="#form-anchor">                Subscribe to our newsletter
 </a>            </li>
             <li>
 <a href="buddies.html">                <i class="fa fa-beer"></i> Buddies
@@ -44,24 +36,32 @@
                 <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
                 <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
-            <!-- <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a> -->
-            <li><button data-toggle="modal" data-target="#sign-in-modal" class="btn">Sign-in</button></li>
-            <div class="modal fade" id="sign-in-modal">
-              <div class="pop-up">
-                <p>Welcome back on Orange Hunt!</p>
-                <form action="/">
-                  <input type="email" class="form-control" placeholder="bob@gmail.com">
-                  <input type="password" class="form-control" placeholder="*********">
-                  <input type="submit" value="Sign-In" class="btn">
-                </form>
-              </div>
-            </div>
+            </li>
+            <li>
+              <a href="#" class="btn" data-toggle="modal" data-target="#sign-in-modal">Sign-in</a>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="padded"></div>
+    <div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title text-center" id="myModalLabel">Welcome back on Orange Hunt!</h3>
+          </div>
+          <div class="modal-body">
+            <input type="email" class="form-control top-margin" placeholder="bob@gmail.com">
+            <input type="password" class="form-control top-margin" placeholder="*********">
+            <input type="submit" class="btn top-margin" value="Sign-In">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div>
   <div class="title">
@@ -70,7 +70,7 @@
   <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Alain</p>
               <p>Crawford</p>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Alex</p>
               <p>Sellam</p>
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Christopher</p>
               <p>Lemoine</p>
@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>David</p>
               <p>Muhlberger</p>
@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Esther</p>
               <p>Banales</p>
@@ -120,7 +120,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Florent</p>
               <p>Angles</p>
@@ -130,7 +130,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Grégoire</p>
               <p>Charles</p>
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Jonathan</p>
               <p>Maurin</p>
@@ -150,7 +150,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Julien</p>
               <p>Mamalian</p>
@@ -160,7 +160,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Karine</p>
               <p>Bialobroda</p>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Katy</p>
               <p>Webster</p>
@@ -180,7 +180,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Maxime</p>
               <p>Braud</p>
@@ -190,7 +190,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Nathan</p>
               <p>Obadia</p>
@@ -200,7 +200,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Paulin</p>
               <p>Tassi</p>
@@ -210,7 +210,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Romain</p>
               <p>Bernard</p>
@@ -220,7 +220,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Francoise</p>
               <p>Serrault</p>
@@ -230,7 +230,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Tatiana</p>
               <p>Perillo</p>
@@ -240,7 +240,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="card-buddy">
+          <div class="card-buddy" data-sr="wait 0.2s, over 2s, roll -360deg">
             <div class="card-header">
               <p>Thomas</p>
               <p>Sertorio</p>
@@ -276,5 +276,12 @@
       </div>
       <div class="clear"></div>
     </div>
+
+    <script src='/js/scrollReveal.min.js'></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    </script>
   </body>
 </html>
